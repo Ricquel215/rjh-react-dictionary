@@ -10,11 +10,12 @@ export default function Photos(props) {
             return (
               <div className="col-4" key={index}>
                 <a href={photo.src.original} target="_blank" rel="noreferrer">
-                  // eslint-disable-next-line
+                  {/* This is the proper way to add comments in JSX */}
                   <img
                     src={photo.src.landscape}
                     className="img-fluid"
-                    alt="photo"
+                    // Use a more descriptive alt text using data from the photo object
+                    alt={photo.alt || `Search result ${index + 1}`}
                   />
                 </a>
               </div>

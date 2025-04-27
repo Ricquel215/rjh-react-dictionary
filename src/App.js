@@ -9,7 +9,16 @@ export default function App() {
           <Dictionary defaultKeyword="sunset" />
         </main>
         <footer className="App-footer">
-          <small>Coded by SheCodes</small>
+          <small>
+            This project was coded by Ricquel Harper and is{" "}
+            <a
+              href="https://github.com/Ricquel215/rjh-react-dictionary"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              open-sourced on GitHub
+            </a>
+          </small>
         </footer>
       </div>
     </div>
